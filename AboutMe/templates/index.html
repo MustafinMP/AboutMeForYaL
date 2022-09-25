@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Творческое задание | Мустафин Максим</title>
+    {% load static %}
+    <link href="{% static 'css/index.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="header-section">
+    <img class="photo" src="{% static 'img/myphoto.jpg' %}">
+    <article class="main-info">
+        <h1>МУСТАФИН</h1>
+        <h1>МАКСИМ</h1>
+        <h2>17 лет</h2>
+        <h2>г. Уфа</h2>
+    </article>
+</section>
+<p class="about">Привет! Я Мустафин Максим, ученик 11 класса и выпускник Лицея Яндекса.
+У меня большой список увлечений, вот часть этого списка:</p>
+<ul>
+    <li><span>Программирование (куда ж без него);</span></li>
+    <li><span>Спорт. 4 года я занимался большим теннисом, но бросил по болезни. После восстановления занялся бегом и
+    спортивным ориентированием (имею 2 разряд);</span></li>
+    <li><span>Часто путешествую по Уфе пешком и на велосипеде, знаю почти каждый уголок города;</span></li>
+    <li><span>По вечерам учусь играть на гитаре;</span></li>
+    <li><span>Раньше рисовал пиксель арт, но сейчас есть дела поважнее.</span></li>
+</ul>
+<p class="about">(а питомцев нужно упоминать? Если что, у меня собака и кот:) )</p>
+<section class="dateline">
+    <article class="date-block">
+        <div class="date">2019-<br>2021</div>
+        <div class="line-block"></div>
+        <div class="date-info">Начало моего пути. В это время я поступил в Лицей Яндекса и отучился в нем 2 года</div>
+    </article>
+    <article class="date-block">
+        <div class="date">2021-<br>2022</div>
+        <div class="line-block"></div>
+        <div class="date-info">Самостоятельно изучал Django, HTML, CSS, с их помощью почти завершил школьный проект
+            (сайт управления школьной библиотекой). Также участвовал в олимпиадах по информатике
+        </div>
+    </article>
+    <article class="date-block">
+        <div class="date">2022</div>
+        <div class="line-block"></div>
+        <div class="date-info">Академия, я возвращаюсь!!!</div>
+    </article>
+</section>
+<img src="{% static 'img/arni3.png' %}">
+</body>
+</html>
