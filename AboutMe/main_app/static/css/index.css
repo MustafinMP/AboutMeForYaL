@@ -76,3 +76,7 @@ span {
   width: 79%;
   padding-left: 12px;
 }
+
+img {
+  pointer-events: none;
+}
