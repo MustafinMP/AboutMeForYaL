@@ -1,6 +1,8 @@
 body {
   padding-right: 15%;
   padding-left: 15%;
+  font-family: Century Gothic;
+  font-size: 24px;
 }
 
 .header-section {
@@ -26,15 +28,10 @@ h1 {
 
 h2 {
   font-size: 32px;
-  color: #999999;
-}
-
-p {
-  font-size: 24px;
+  color: #aaaaaa;
 }
 
 ul {
-  font-size: 24px;
   list-style-type: square;
   color: #febe3e;
 }
@@ -54,7 +51,6 @@ span {
 .date-block {
   height: 200px;
   display: flex;
-  font-size: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
   align-items: center;
